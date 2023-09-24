@@ -14,6 +14,7 @@
 		553E67FD2AC024B30049283B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553E67FC2AC024B30049283B /* Assets.xcassets */; };
 		553E68002AC024B30049283B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553E67FE2AC024B30049283B /* LaunchScreen.storyboard */; };
 		553E68032AC024B30049283B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E68022AC024B30049283B /* main.m */; };
+		553E680B2AC024C70049283B /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E680A2AC024C70049283B /* Robot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		553E67FF2AC024B30049283B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		553E68012AC024B30049283B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		553E68022AC024B30049283B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		553E68092AC024C70049283B /* Robot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
+		553E680A2AC024C70049283B /* Robot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				553E67FE2AC024B30049283B /* LaunchScreen.storyboard */,
 				553E68012AC024B30049283B /* Info.plist */,
 				553E68022AC024B30049283B /* main.m */,
+				553E68092AC024C70049283B /* Robot.h */,
+				553E680A2AC024C70049283B /* Robot.m */,
 			);
 			path = Objective_C_hw_6;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				553E67F22AC024B10049283B /* AppDelegate.m in Sources */,
 				553E68032AC024B30049283B /* main.m in Sources */,
 				553E67F52AC024B10049283B /* SceneDelegate.m in Sources */,
+				553E680B2AC024C70049283B /* Robot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
